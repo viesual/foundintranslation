@@ -128,6 +128,10 @@ p{
     text-transform: none;*/
 }
 
+.nolink{
+	text-decoration:none;
+}
+
 header{
     display: flex;
     flex-direction: row;

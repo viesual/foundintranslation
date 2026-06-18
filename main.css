@@ -60,6 +60,10 @@ table {
 	font-style: normal;
   }
 
+@view-transition {
+  navigation: auto;
+}
+
 html{
     font-size: 100%;
 }

@@ -55,7 +55,7 @@ table {
 
   @font-face {
 	font-family: "Suisse";
-	src: url('/SuisseIntlMono-Regular-WebS.woff2');
+	src: url('./SuisseIntlMono-Regular-WebS.woff2');
 	font-weight: 400;
 	font-style: normal;
   }
@@ -137,4 +137,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 4rem;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:1.5rem;
+    padding: 1rem; 
 }

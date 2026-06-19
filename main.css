@@ -160,3 +160,7 @@ header{
     padding: 1rem; 
     background-color: #f8f8f8;
 }
+
+summary{
+    margin-bottom: 0.5rem;
+}

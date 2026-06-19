@@ -76,13 +76,13 @@ body{
     color: #333;
     text-transform: uppercase;
     line-height: 1.5;
+    padding-top: 6rem;
 }
 
 .maingrid{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    margin-top:2rem;
 }
 
 .detailgrid{
@@ -136,11 +136,10 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 4rem;
     position: fixed;
     top:0;
     left:0;
     right:0;
-    height:1.5rem;
     padding: 1rem; 
+    background-color: #f8f8f8;
 }

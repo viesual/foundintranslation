@@ -64,6 +64,22 @@ table {
   navigation: auto;
 }
 
+@keyframes fade-in {
+  from { opacity: 0; translate: 0 0.5rem; }
+}
+
+@keyframes fade-out {
+  to { opacity: 0; translate: 0 -0.5rem; }
+}
+
+::view-transition-new(root) {
+  animation: 600ms ease fade-in;
+}
+
+::view-transition-old(root) {
+  animation: 400ms ease fade-out;
+}
+
 html{
     font-size: 100%;
 }
